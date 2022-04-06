@@ -10,3 +10,12 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+@store7 = Store.new()
+
+@store7.name = 'new west'
+
+@store7.save
+
+puts @store7.valid?
+puts @store7.errors.messages
